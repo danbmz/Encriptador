@@ -1,0 +1,122 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: #D8DFE8;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: minmax(10vh, auto);
+}
+
+.encabezado{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.encabezado{
+    display: inline-block;
+}
+.logo{
+    margin: 20px 10px;
+}
+
+.input{
+    grid-column: 1/3;
+    grid-row: 2;
+}
+.text-1{
+    background: #D8DFE8;
+    border: none;
+    color: #0A3871;
+    margin-top: 20px;
+    width: 90%;
+    height: 75%;
+    margin-left: 10%;
+    text-transform: lowercase;
+    outline: none;
+    font-size: 32px;
+}
+::placeholder{color: #0A3871; font-size: 32px;}
+.info{
+    color: #495057;
+    font-size: 18px;
+    margin-left: 10%;
+}
+.botones{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 250px;
+}
+.desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.output{
+    grid-column: 3;
+    grid-row: 1/3;
+    height: 630px;
+}
+
+.mensaje{
+    background:white;
+    border: none;
+    border-radius: 24px;
+    width: 300px;
+    height: 600px;
+    color: #0A3871;
+    outline: none;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.mensaje{
+    margin: 30px 50px;
+    font-size: 32px;
+}
+.text-out-placeholder {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 40px;
+    width: 336px;
+}*/
+
+.creditos{
+    color: #495057;
+    font-size: 18px;
+    text-align: center;
+}

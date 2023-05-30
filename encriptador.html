@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title> Encriptador de texto</title>
+    </head>
+
+<!-- no use frameworks, use google fonts, normalize.css, fontawesome, lottiefiles son herramientas-->
+
+    <body>
+        <main class="contenedor">
+            <header class="encabezado">
+                <h1><img src="images/Logo.png" class="logo" alt="Logo de mi sitio web"></h1>
+            </header>
+
+            <section class="input">
+                <textarea class="text-1" placeholder="Ingresa el texto aqui"></textarea> 
+
+                <div>
+                    <h6 class="info">Solo letras minusculas y sin acentos</h6>
+                </div>
+
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="output">
+                <div class="text-out">
+                    <textarea  class="mensaje" cols="20" rows="10"></textarea>
+                    <div>
+                    <button class="copiar" display="none" onclick="copiarContenido()">Copiar</button>
+                    </div>
+                </div>
+
+                <div class="text-out-placeholder">
+                    <img src="images/Muñeco.png">
+                    <h2>Ningun mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p> 
+                </div>
+            </section>
+            
+        </main>
+
+        <script src="script.js"></script>
+
+        <footer>
+            <div>
+                <h6 class="creditos">Desarrollado por dan bermudez</h6>
+            </div>
+        </footer>
+ 
+    </body>
+</html>
