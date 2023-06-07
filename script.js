@@ -55,26 +55,10 @@ function copiarContenido() {
     }, 1000);
   }
 
-  function mostrarPopup() {
-    // Crear un elemento <div> para el pop-up
-    const popup = document.createElement('div');
-    popup.className = 'popup';
-    
-    // Agregar contenido al pop-up
-    popup.textContent = 'Mensaje Copiado';
-    
-    // Estilizar el pop-up
-    popup.style.position = 'fixed';
-    popup.style.top = '50%';
-    popup.style.left = '50%';
-    popup.style.transform = 'translate(-50%, -50%)';
-    popup.style.padding = '20px';
-    popup.style.backgroundColor = 'white';
-    popup.style.border = '1px solid black';
-    popup.style.zIndex = '9999';
-    
-    // Agregar el pop-up al documento
-    document.body.appendChild(popup);
+  function mostrar(){
+    document.getElementById('placeholder').style.display="none";
+    document.getElementById('text-out').style.display='block';
+    document.getElementById('copiar').style.display='block';
   }
   
 
