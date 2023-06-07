@@ -72,12 +72,6 @@ body{
     width: 250px;
     margin-left: 30px;
 }
-
-/* .output{
-    grid-column: 3;
-    grid-row: 1/3;
-    height: 630px;
-} */
 .output-container {
     grid-column: 3;
     grid-row: 1/3;
@@ -90,36 +84,12 @@ body{
     border-radius: 18px;
 }
 
-/* .mensaje{
-    background:white;
-    border: none;
-    border-radius: 24px;
-    width: 300px;
-    height: 600px;
-    color: #0A3871;
-    outline: none;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-}
-.mensaje{
-    margin: 30px 50px;
-    font-size: 32px;
-} */
 #text-out{
     position: relative;
     margin: 5px auto;
     display: none;
 
 }
-
-/* .text-out-placeholder {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 100%;
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-} */
 
 .mensaje{
     border: none;
@@ -165,17 +135,6 @@ body{
     margin: auto;
     width: 100px;
 }
-
-/* .copiar{
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: #0A3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 108px;
-    margin-top: 40px;
-    width: 336px;
-} */
 
 .creditos{
     color: #495057;
